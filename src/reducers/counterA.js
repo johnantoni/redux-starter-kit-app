@@ -12,15 +12,15 @@ const counterSliceA = createSlice({
       return state + 5;
     }
   },
-  // extraReducers: {
-  //   [addTwo](state, action) {
-  //     return state + 2;
-  //   }
-  // }
+  extraReducers: {
+    [addTwo](state, action) {
+      return state + 2;
+    }
+  }
 });
 
 console.log(counterSliceA);
-// console.log("addTwo, imported from B to A: ", addTwo);
+console.log("addTwo, imported from B to A: ", addTwo);
 
 const { actions, reducer } = counterSliceA;
 

@@ -36,7 +36,7 @@ class App extends Component {
               <button onClick={() => this.props.incrementA()}>Increment A</button>
               <button onClick={() => this.props.incrementB()}>Increment B</button>
               <button onClick={() => this.props.addTwo()}>Add Two to Both</button>
-              <button onClick={() => this.props.addFive()}>Add Five to Both</button>
+              {/* <button onClick={() => this.props.addFive()}>Add Five to Both</button> */}
               <button onClick={() => this.props.fetchTodos()}>fetch Todos</button>
             </div>
           </div>
